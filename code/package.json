@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun run src/index.ts",
+    "evaluate": "bun run src/evaluate.ts",
     "typecheck": "bunx tsc --noEmit",
     "build": "bun run typecheck",
     "test": "bun test"
@@ -14,5 +15,12 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.27",
+    "ai": "^7.0.47",
+    "csv-parse": "^7.0.1",
+    "prose-writer": "^0.2.3",
+    "zod": "^4.4.3"
   }
 }
