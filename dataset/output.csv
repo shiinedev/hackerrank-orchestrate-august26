@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,mute,scam,Muted because the message shows recent_user_reports.,0.85,message_0243;message_0102;message_0101
-msg_091,mute,scam,Muted because the message shows otp_or_verification_code.,0.9,message_0238;message_0381
-msg_090,digest,unknown,The message is a casual inquiry without urgency and does not require immediate attention.,0.8,none
+msg_023,digest,business_update,This message from HDFC Bank contains important account information but is safe to review later since it doesn't require immediate action.,0.85,message_0243;message_0102;message_0101
+msg_091,mute,scam,Muted because the message shows sensitive_code_request.,0.85,message_0238;message_0381
+msg_090,digest,unknown,The message is not urgent and requires no immediate action; it's safe to process later.,0.85,none
 msg_048,mute,scam,"Muted because the message shows account_blocking_pressure, urgent_payment_pressure.",0.9,message_0151;message_0152;message_0237
-msg_040,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0136;message_0135
-msg_075,digest,business_update,"The ride update is important, but not urgent enough to interrupt immediately. The user can check it later in the app.",0.85,message_0206;message_0205
-msg_005,notify,event,"The message is time-sensitive about collecting an item, which requires immediate attention before the 6 PM deadline.",0.85,message_0065;message_0332
-msg_104,mute,unknown,"The sender previously sent similar messages that were dismissed or muted, indicating low interest and relevance.",0.85,message_0383;message_0232
-msg_069,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0193;message_0194;message_0042;message_0177;message_0178
-msg_107,mute,scam,Muted because the message shows otp_or_verification_code.,0.85,message_0056;message_0369;message_0235
-msg_070,mute,scam,"Muted because the message shows otp_or_verification_code, account_blocking_pressure.",0.95,message_0213;message_0195;message_0053
-msg_003,digest,business_update,"This message provides an update on an order, which is useful but not urgent enough to interrupt immediately.",0.8,message_0031;message_0400;message_0061
-msg_099,digest,business_update,"The message shares notes for a review but doesn't require immediate action, fitting the user's context to read it later before the standup.",0.85,message_0227;message_0055;message_0228
-msg_008,digest,business_update,"This is a follow-up review request from Hoop, and while it's relevant, it's not urgent and can wait for a response.",0.85,message_0296;message_0072;message_0071
-msg_092,mute,scam,Muted because the message shows recent_user_reports.,0.85,none
-msg_060,notify,urgent,This message contains an important deadline reminder for internship approvals that requires immediate action before 5 PM today.,0.9,message_0284;message_0176
-msg_004,digest,business_update,"This message contains important health-related information that should be reviewed, but it's not urgent enough to interrupt immediately. You have previously engaged with similar messages from this business.",0.85,message_0245;message_0005
-msg_030,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0115;message_0335;message_0050
-msg_045,notify,event,This message is urgent about a package delivery that requires immediate confirmation and could impact the user if not addressed quickly.,0.9,message_0146;message_0145
-msg_052,mute,scam,"Muted because the message shows domain_mismatch, recent_user_reports.",0.9,message_0208;message_0207;message_0159;message_0160
-msg_009,mute,unknown,"The message is low-priority and can be safely ignored, especially since the user has muted this group and reports dismissing notifications from it.",0.85,message_0074;message_0073
-msg_071,digest,event,"The message discusses a potential meeting plan with unclear details, but it doesn't require immediate action or interruption.",0.8,message_0197;message_0198
-msg_016,mute,scam,Muted because the message shows account_blocking_pressure.,0.95,message_0024;message_0087;message_0183;message_0201;message_0184
-msg_065,digest,promotion,"The message contains a promotional offer that is relevant, but it is not urgent enough to interrupt now. User has previously engaged with similar messages without immediate action.",0.85,message_0261;message_0185;message_0186
+msg_040,mute,spam,"This message is a chain message asking to forward for blessings and resembles previous dismissed content, making it low-value and unwanted.",0.85,message_0136;message_0135
+msg_075,digest,business_update,"The ride update provides important information, but it's not urgent enough to interrupt immediately; the user has previously opened similar messages.",0.85,message_0206;message_0205
+msg_005,notify,urgent,"The message is time-sensitive, asking for pickup by 6 PM today, and you need to respond based on your past interactions with this sender regarding similar requests.",0.85,message_0065;message_0332;message_0066
+msg_104,mute,unknown,"The message is about collecting a jacket, but the user has ignored or dismissed similar messages before. It's likely not urgent or important enough to interrupt.",0.85,message_0383;message_0232
+msg_069,mute,unknown,"The message is a generic morning greeting with a request to share positivity, similar to past messages that have been dismissed or muted. There's no urgency or importance for immediate attention.",0.85,message_0193;message_0194;message_0042;message_0177;message_0178
+msg_107,mute,scam,Muted because the message shows sensitive_code_request.,0.85,message_0056;message_0369;message_0235
+msg_070,mute,scam,"Muted because the message shows sensitive_code_request, account_blocking_pressure.",0.95,message_0213;message_0195;message_0053;message_0214
+msg_003,digest,business_update,"This message provides a delivery update for an order, which is useful but not urgent enough to interrupt the user immediately.",0.85,message_0031;message_0400
+msg_099,digest,business_update,"The message mentions reading notes for a review and is not urgent, allowing for later viewing.",0.8,message_0227;message_0055;message_0228
+msg_008,digest,business_update,"This is a follow-up message from a business you interacted with, asking for feedback on a recent product. It's useful but not urgent enough to interrupt you immediately.",0.85,message_0296;message_0072;message_0071
+msg_092,digest,business_update,The message contains important information about the user's monthly card statement but does not require immediate attention. The user can review it when convenient.,0.85,none
+msg_060,notify,urgent,"This message is a critical reminder for internship approval that requires timely action before the 5 PM deadline. The user has engaged with similar messages in the past, making it important to notify them now.",0.9,message_0284;message_0176;message_0404
+msg_004,digest,business_update,"This is a health-related update that the user has engaged with before, but it doesn't require immediate attention.",0.85,message_0245;message_0005;message_0064;message_0063
+msg_030,mute,spam,"The message is a repeat of past promotions for items that the user has previously dismissed, indicating low interest.",0.85,message_0115;message_0335;message_0050
+msg_045,notify,urgent,The message is time-sensitive regarding a delivery and requires immediate confirmation.,0.9,message_0146;message_0145
+msg_052,mute,spam,"This message is part of a history of spammy content from a suspicious source, and the user has previously reported similar messages.",0.9,message_0208;message_0207;message_0159;message_0160
+msg_009,mute,unknown,"The message is casual and part of a group chat about sports, and the user has already muted the group. It's not urgent or important enough to interrupt.",0.85,message_0074;message_0073
+msg_071,digest,event,The message is about a potential meeting without urgency. It's safe to read later.,0.85,message_0197;message_0198
+msg_016,mute,spam,The message is likely a scam alerting about an account block and is similar to previous messages that the user reported and muted.,0.9,message_0024;message_0087;message_0183;message_0201;message_0184
+msg_065,digest,promotion,"This message is a promotional offer from Target, which aligns with past messages, but it is not urgent enough to interrupt immediately. User has shown some interest in such promotions without replying directly.",0.85,message_0261;message_0185;message_0186
 msg_038,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0131;message_0132
-msg_086,notify,urgent,"The voice message contains an important update about your airport pickup time, which requires timely action.",0.85,message_0222
-msg_014,mute,spam,"This message is a promotional offer from a business the user has opted out of previously, and similar messages have been dismissed in the past.",0.95,message_0017;message_0258;message_0018;message_0084;message_0083
-msg_094,digest,promotion,"This message is a promotional offer from a known business (Nykaa), which is not urgent and can wait for later review.",0.85,none
-msg_029,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0332;message_0113;message_0401
-msg_105,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0233;message_0373
-msg_002,notify,urgent,"The message requests a quick call before an important client meeting, indicating a time-sensitive need for clarification on a refund issue.",0.9,message_0169;message_0003
-msg_010,digest,business_update,"This is a feedback request from PVR Cinemas, which is safe but not urgent enough to interrupt you immediately. You have previously opened similar messages without replying.",0.85,message_0011;message_0242;message_0075
-msg_078,mute,spam,Muted because the message shows mass_forward_signal.,0.9,message_0211;message_0212
-msg_013,mute,promotion,"The message promotes a discount on a recliner, which is not urgent and the user has previously dismissed similar promotions from this group.",0.85,message_0081;message_0082
-msg_018,mute,spam,Muted because the message shows mass_forward_signal.,0.95,message_0026;message_0092;message_0091
-msg_044,mute,scam,Muted because the message shows otp_or_verification_code.,0.9,message_0143;message_0144
-msg_032,digest,unknown,"The message is a request for shared slides, which is useful but not urgent. It fits the user's context of studying with previous similar requests.",0.75,message_0119;message_0285
-msg_106,notify,event,The message contains important details about a dance practice change and requires timely action to avoid missing it.,0.9,message_0234;message_0376
-msg_006,digest,event,"The message contains important maintenance information but is not urgent enough to interrupt immediately, similar to past messages which were also digested.",0.85,message_0029;message_0067;message_0044
-msg_109,notify,urgent,"The message is from a trusted admin and requires immediate attention for payment to avoid penalties, especially since it mentions a deadline.",0.95,message_0151
-msg_108,mute,scam,"Muted because the message shows password_or_pin_request, domain_mismatch, recent_user_reports.",0.9,message_0094;message_0093;message_0236
-msg_019,mute,spam,"This message appears to be a suspicious scam related to banking, similar to previously reported messages. It encourages clicking a link and has a high likelihood of being untrustworthy.",0.95,message_0094;message_0093;message_0236
-msg_088,mute,unknown,The user is in a muted group and has previously dismissed similar messages from the same sender. This message appears to be a continuation of that context which is not pressing.,0.85,message_0224;message_0050;message_0115
-msg_056,notify,urgent,"The message is time-sensitive regarding a doctor's appointment, needing confirmation soon.",0.9,message_0168
-msg_027,digest,promotion,The message is a promotional offer from a known travel business that seems interesting but doesn't require immediate action.,0.85,message_0272;message_0033;message_0109
-msg_050,digest,business_update,"The message contains important health-related information, but it doesn't require immediate attention and can be reviewed later.",0.85,message_0279;message_0155;message_0156
-msg_083,digest,business_update,"The voice message requests comments on a document without urgency, allowing for later review.",0.85,message_0219
-msg_063,mute,scam,Muted because the message shows urgent_payment_pressure.,0.85,message_0182;message_0181
-msg_033,digest,greeting,"The message is friendly and not urgent, suggesting the sender just wanted to check in.",0.8,message_0121;message_0122
-msg_061,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0193;message_0177;message_0042;message_0194;message_0178
-msg_020,mute,spam,"Muted because the message shows link_or_click_instruction, mass_forward_signal.",0.85,message_0095;message_0096
-msg_017,mute,spam,The message appears to be a scam-like solicitation based on previous similar messages reported and dismissed by the user.,0.95,message_0089;message_0090
-msg_058,mute,spam,Muted because the message shows mass_forward_signal.,0.9,message_0078;message_0172;message_0241;message_0040
-msg_026,mute,scam,"Muted because the message shows domain_mismatch, recent_user_reports.",0.9,message_0032;message_0107;message_0108
-msg_047,digest,event,The message provides important information about lift maintenance but is not urgent enough to interrupt immediately. It can be read later.,0.85,message_0150;message_0149
-msg_046,mute,scam,Muted because the message shows otp_or_verification_code.,0.95,message_0148;message_0147
-msg_042,notify,urgent,"This message alerts about a security issue with the gate closing soon, requiring immediate action to avoid towing of cars.",0.95,message_0140;message_0058
-msg_079,mute,scam,"Muted because the message shows otp_or_verification_code, account_blocking_pressure.",0.9,message_0053;message_0045
-msg_098,notify,urgent,"The sender is asking for an immediate decision on the appointment timing, which requires a timely response.",0.85,message_0226;message_0359
-msg_037,notify,urgent,"The message indicates a time-sensitive situation regarding a water tank that needs immediate attention. As an admin, you should act quickly to avoid delays.",0.85,message_0130;message_0269;message_0129
-msg_007,digest,event,"The message contains information about a society potluck but doesn't require immediate action or response, making it appropriate for later reading.",0.85,message_0070;message_0069
-msg_085,mute,scam,"Muted because the message shows otp_or_verification_code, account_blocking_pressure, urgent_payment_pressure, domain_mismatch, recent_user_reports.",0.9,message_0221
-msg_001,notify,urgent,"The message alerts about a tanker leaving soon and important water supply issues, requiring immediate action to fill drinking water.",0.9,message_0057;message_0240
-msg_021,notify,payment,"This message is about a payment due today before 5 PM, which requires immediate attention to avoid late fees or issues.",0.85,message_0130;message_0190;message_0129
-msg_028,mute,promotion,User opted out of promotions and has previously dismissed similar messages from this business.,0.9,message_0034;message_0112;message_0111
-msg_012,mute,spam,Muted because the message shows mass_forward_signal.,0.9,message_0247;message_0079;message_0080;message_0194;message_0193
-msg_064,mute,spam,The message concerns a refund requirement but resembles previous scam messages about wallet verification that the user has reported and dismissed multiple times.,0.85,message_0087;message_0183;message_0201;message_0184;message_0088
-msg_103,digest,personal,"The message is about collecting a jacket, which is useful but not urgent. It can wait.",0.85,message_0382;message_0231
-msg_031,notify,urgent,"The message discusses an important upcoming sync meeting that requires preparation, indicating it needs immediate attention to avoid problems later.",0.85,message_0249;message_0118;message_0117
-msg_057,notify,urgent,"The message indicates a failing build that requires immediate attention before proceeding, as it could impact client updates.",0.9,message_0169;message_0059;message_0003
-msg_087,mute,spam,"This voice message is a promotional advertisement for real estate, similar to previous messages that the user dismissed and muted.",0.9,message_0391;message_0204;message_0203;message_0223;message_0358
-msg_067,notify,urgent,The message indicates a time-sensitive maintenance payment with a deadline today that could incur late fees if not paid on time.,0.85,message_0068;message_0029;message_0098
-msg_039,notify,urgent,"The message is a request for a fee receipt needed by the school before a deadline, which is important to prevent your child from missing out on the field trip.",0.9,message_0051;message_0037
-msg_082,notify,urgent,"The voice message is about a spike in checkout errors requiring immediate attention and action from the team, which is critical for ongoing operations.",0.85,message_0218
-msg_066,mute,spam,"Muted because the message shows recent_user_reports, mass_forward_signal.",0.85,message_0188;message_0187
-msg_049,digest,business_update,"The message is a reminder about a return pickup, relevant but not urgent enough to interrupt immediately. The user has engaged with similar messages before.",0.85,message_0154;message_0291;message_0153
-msg_015,mute,scam,Muted because the message shows otp_or_verification_code.,0.85,message_0045;message_0085;message_0086
-msg_051,mute,spam,"Muted because the message shows recent_user_reports, mass_forward_signal.",0.9,message_0257;message_0103;message_0104;message_0157;message_0158
-msg_097,digest,personal,"The message indicates nothing is urgent and can wait until tomorrow, consistent with the user's usual interaction with this sender.",0.85,message_0054;message_0226;message_0359
-msg_089,notify,urgent,"This message is time-sensitive regarding the blue water bottle you left, which needs to be collected before 7 PM today.",0.9,none
-msg_053,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0411;message_0253;message_0161
-msg_059,mute,spam,The message asks for sensitive information to claim benefits and has characteristics similar to previous fraudulent messages reported in the group.,0.85,message_0053;message_0214;message_0213
-msg_024,mute,spam,"Muted because the message shows recent_user_reports, mass_forward_signal.",0.85,message_0257;message_0103;message_0104;message_0157;message_0158
-msg_072,mute,scam,Muted because the message shows otp_or_verification_code.,0.9,message_0085;message_0199;message_0086
-msg_036,mute,spam,"The message is from a source that the user has previously reported and muted, indicating familiarity with potentially unwanted content.",0.9,message_0283;message_0127;message_0128
-msg_076,mute,scam,"Muted because the message shows domain_mismatch, recent_user_reports.",0.9,message_0208;message_0207;message_0159;message_0160
-msg_055,notify,urgent,"The sender is requesting an urgent call and emphasizes a ten-minute decision time, which requires immediate attention.",0.9,message_0166;message_0165
-msg_102,digest,business_update,The message is about an ongoing task that doesn't require immediate attention; the user has a history of responding to similar messages but it's not urgent enough to interrupt.,0.85,message_0371;message_0230
-msg_080,notify,urgent,"The message indicates immediate action is needed to move the car due to an incoming repair truck, and the user is an admin in the group, making this important for the community.",0.95,message_0130;message_0190;message_0142;message_0180;message_0216
-msg_093,mute,scam,"Muted because the message shows otp_or_verification_code, recent_user_reports.",0.85,none
-msg_034,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0013;message_0077;message_0171;message_0014;message_0123
-msg_035,digest,promotion,"This is a promotional message from RazorpayX, which the user has engaged with before but is not urgent.",0.85,message_0281;message_0125
-msg_101,digest,personal,"The message is a friendly check-in with no urgent response required, consistent with past interactions.",0.85,message_0370;message_0229;message_0268
-msg_041,digest,event,"The survey is from a trusted source (Polaris School of Technology) and relates to past interactions, making it useful but not urgent.",0.85,message_0138;message_0137
+msg_086,notify,urgent,"This message informs you of an important schedule change for your airport pickup tomorrow, which needs your timely attention.",0.85,message_0222
+msg_014,mute,spam,The user has opted out of promotions from this business and has repeatedly dismissed similar messages from them.,0.9,message_0017;message_0258;message_0018;message_0084;message_0083
+msg_094,digest,promotion,"This message is a promotional offer from Nykaa and is not urgent, so it can wait until later.",0.85,none
+msg_029,digest,promotion,"The message is about selling clothing in a marketplace group, which is not urgent and can wait for later review. The user has engaged with similar messages before but does not need immediate notification.",0.85,message_0332;message_0113;message_0401
+msg_105,mute,spam,The message is a forwarded health tip that has been dismissed in the past. It sounds similar to previously ignored content.,0.85,message_0233;message_0373
+msg_002,notify,urgent,The message is about a time-sensitive client meeting and requires immediate attention for clarification on a specific refund issue.,0.92,message_0169;message_0003;message_0059
+msg_010,digest,promotion,"The message is a request for feedback, similar to previous messages the user has received and engaged with, but it's not urgent enough to interrupt immediately.",0.85,message_0011;message_0242;message_0075
+msg_078,mute,spam,"The message requests sensitive information in a suspicious context, similar to previously reported spam.",0.85,message_0211;message_0212
+msg_013,mute,promotion,This message offers a discount on a recliner but is likely a sales promotion that is not urgent or important to you.,0.85,message_0081;message_0082
+msg_018,mute,spam,This message is similar to previous spam messages that were reported and dismissed.,0.95,message_0092;message_0091;message_0026
+msg_044,mute,scam,Muted because the message shows sensitive_code_request.,0.9,message_0143;message_0144
+msg_032,digest,event,"The request is not urgent and can be addressed later without immediate interruption. The user may find it useful, but it does not require immediate attention.",0.85,message_0119;message_0285
+msg_106,notify,event,The message is important for attending dance practice and contains specific time-sensitive information about entry to the venue.,0.85,message_0234;message_0376
+msg_006,digest,event,"This message contains important information about maintenance but does not require immediate action right now, so it can wait for a summary later.",0.85,message_0029;message_0044;message_0067
+msg_109,mute,spam,"This is a recurring payment reminder with urgency but the user previously dismissed similar messages and reported them, indicating they find this content unwanted.",0.85,message_0151;message_0152;message_0237
+msg_108,mute,spam,"The message solicits sensitive information through a suspicious link, similar to previous spam messages, and the user has reported similar messages before.",0.85,message_0094;message_0093;message_0236
+msg_019,mute,spam,"This is a suspicious message from a business with a high report rate in previous interactions, indicating it could be a scam.",0.85,message_0094;message_0093;message_0236
+msg_088,mute,unknown,"The message is a voice note about a previously offered item but is not urgent, and the user has been dismissing similar messages in this group.",0.85,message_0224;message_0115;message_0050
+msg_056,notify,urgent,"The message is about a doctor appointment change, which requires a timely response to confirm availability.",0.9,message_0168
+msg_027,digest,promotion,The message is a promotional offer from a trusted business the user has engaged with before. It's useful but doesn't require immediate attention.,0.8,message_0272;message_0033;message_0007
+msg_050,digest,business_update,"The health-related update is useful but not urgent enough to interrupt immediately, and the user has shown interest in similar messages before.",0.85,message_0279;message_0155;message_0156
+msg_083,digest,business_update,"The voice message is a request for feedback on a document that is not urgent, and there's a previous similar context where the user took time to respond.",0.8,message_0219
+msg_063,mute,scam,Muted because the message shows urgent_payment_pressure.,0.95,message_0182;message_0181
+msg_033,digest,greeting,"The message is a friendly greeting with no urgency, and the sender is a family member who often checks in. It's not important enough to interrupt immediately.",0.87,message_0121;message_0122
+msg_061,mute,spam,"This message resembles previous spammy content, encouraging chain sharing and lacks personal relevance.",0.9,message_0193;message_0177;message_0042;message_0194;message_0178
+msg_020,mute,spam,"The message contains a suspicious link and appears to be a generic prompt to complete an account check, fitting spam criteria. The user has previously ignored similar messages from this sender.",0.85,message_0095;message_0096
+msg_017,mute,spam,The message is likely a scam based on previous reports and dismissals of similar messages in the group.,0.9,message_0090;message_0089
+msg_058,mute,spam,This message is a repetitive health tip from a known sender and similar to previous messages that were dismissed. It is forwarded many times and doesn't warrant immediate attention.,0.85,message_0078;message_0172;message_0241;message_0040
+msg_026,mute,spam,"This message appears to be a scam based on past interactions with similar content from the same sender, which were reported and dismissed.",0.95,message_0032;message_0107;message_0108
+msg_047,digest,event,"This message provides information about lift maintenance, which is useful but not urgent enough to interrupt immediately. Similar messages have been well received in the past.",0.85,message_0150;message_0149;message_0130;message_0129;message_0190
+msg_046,mute,scam,Muted because the message shows sensitive_code_request.,0.95,message_0148;message_0147
+msg_042,notify,urgent,"This is an important security alert about the main gate closing soon, requiring immediate action to avoid towing.",0.9,message_0140;message_0058
+msg_079,mute,scam,"The message urgently asks for an OTP, which raises security concerns and has similarities to previous scam messages reported in this group.",0.9,message_0213;message_0053;message_0173
+msg_098,notify,urgent,"The message is time-sensitive regarding a medical appointment decision, which requires immediate attention and a call back.",0.87,message_0226;message_0359
+msg_037,notify,urgent,"The message indicates a time-sensitive request to fetch a bucket because water is arriving soon, which requires immediate attention.",0.85,message_0269;message_0129;message_0130
+msg_007,digest,event,"The potluck registration is useful information but not urgent, and the sender requested no immediate response. It can wait to be read later.",0.85,none
+msg_085,mute,scam,"Muted because the message shows sensitive_code_request, account_blocking_pressure, domain_mismatch, recent_user_reports.",0.95,message_0221
+msg_001,notify,urgent,The message is time-sensitive and requires immediate attention to fill drinking water before the tanker leaves in 20 mins.,0.9,message_0057;message_0240;message_0058
+msg_021,notify,payment,This message is about a payment due today with a clear deadline of 5 PM. It requires immediate attention to avoid potential issues.,0.85,message_0130;message_0190;message_0129
+msg_028,mute,spam,The user has previously opted out of promotions from this business and repeatedly dismissed similar messages without engagement.,0.9,message_0034;message_0112;message_0111
+msg_012,mute,spam,"This message is a forwarded health tip similar to previous messages that were dismissed or muted, suggesting it's unwelcome content.",0.85,message_0247;message_0079;message_0080;message_0194;message_0193
+msg_064,digest,payment,The message concerns a refund process but lacks urgency and could be safely viewed later.,0.75,message_0087;message_0183;message_0201
+msg_103,notify,urgent,"The message is time-sensitive, asking the user to collect an item by 6 PM. It's important for the user to respond to confirm if they can pick it up, especially since others are also interested.",0.85,message_0382;message_0231
+msg_031,notify,urgent,"This message is about an important meeting and requires immediate attention to prepare action items. Given the user's role as an admin, it needs prompt notice before the meeting.",0.85,message_0249;message_0118;message_0117
+msg_057,notify,urgent,The message is time-sensitive and requires your immediate attention to address a failed build before updating the client thread.,0.9,message_0169;message_0059;message_0003
+msg_087,mute,spam,"The voice message promotes real estate offers, similar to past messages that were muted and dismissed by the user, indicating a low interest in this type of content.",0.9,message_0391;message_0204;message_0203;message_0223;message_0358
+msg_067,notify,urgent,"The message outlines a time-sensitive maintenance payment deadline and potential late fees, which requires immediate attention and action.",0.9,message_0068;message_0029;message_0067
+msg_039,notify,urgent,"The message requests an immediate action regarding a school payment confirmation that impacts the field-trip list, making it time-sensitive.",0.9,message_0037;message_0051;message_0255
+msg_082,notify,urgent,"This voice message alerts about a critical checkout error affecting live users, similar to past messages that prompted immediate response.",0.9,message_0218
+msg_066,mute,promotion,The user has previously dismissed similar promotional messages from this business and has opted out of promotions. This message is likely unwanted.,0.85,message_0188;message_0187
+msg_049,digest,event,"This message is a reminder for a return pickup, which is useful but not urgent enough to interrupt immediately. The user has interacted with similar messages in the past, indicating it's a routine matter.",0.85,message_0154;message_0291;message_0153
+msg_015,mute,scam,Muted because the message shows sensitive_code_request.,0.9,message_0085;message_0045
+msg_051,mute,spam,"The message is a promotion that the user has previously dismissed multiple times and has opted out of promotions, indicating a lack of interest.",0.9,message_0257;message_0103;message_0104;message_0157;message_0158
+msg_097,digest,personal,The message indicates that there is nothing urgent and the sender suggests talking tomorrow. It can wait to be read later.,0.85,message_0359;message_0226;message_0054
+msg_089,notify,urgent,This message is time-sensitive regarding an item you left and needs a prompt response due to the 7 PM deadline.,0.9,none
+msg_053,digest,business_update,"The message contains valuable investment insights that can wait until later, as it's not urgent and relates to the user's interests in the stock market.",0.85,message_0411;message_0253;message_0161
+msg_059,mute,spam,"The message is asking for sensitive information in a suspicious manner, which is similar to previously reported spam messages in this group.",0.9,message_0053;message_0214;message_0213
+msg_024,mute,promotion,User has a history of dismissing similar promotional messages from this business and opted out of promotions recently.,0.9,message_0257;message_0103;message_0104;message_0157;message_0158
+msg_072,mute,scam,Muted because the message shows sensitive_code_request.,0.9,message_0085;message_0199;message_0086;message_0213
+msg_036,mute,scam,"This message is a repeat scam about payout verification, similar to previous messages that the user has reported and dismissed.",0.95,message_0283;message_0127;message_0128
+msg_076,mute,spam,"The content resembles previous messages that were reported as spam, and the user has muted similar messages in the past.",0.95,message_0208;message_0207;message_0159;message_0160
+msg_055,notify,urgent,"The message indicates an urgent need to call due to a time-sensitive decision required within ten minutes, and the sender is someone the user has engaged with positively before.",0.85,message_0166
+msg_102,notify,urgent,"This message is a continuation of a critical process that the user previously engaged with, and it requires attention quickly.",0.95,message_0371;message_0230
+msg_080,notify,urgent,"The message indicates an urgent need to move a car within 10 minutes to avoid potential issues with security, matching historical messages that the user has engaged with actively.",0.95,message_0130;message_0190;message_0142;message_0180;message_0216
+msg_093,digest,event,"The message informs about a scheduled delivery from FedEx, which is relevant but not urgent enough to interrupt immediately.",0.85,none
+msg_034,mute,unknown,"The message is a repetitive greeting with no urgent content, and the user has previously muted similar messages from this sender.",0.9,message_0013;message_0077;message_0171;message_0014
+msg_035,digest,promotion,"The message promotes a service from RazorpayX, which the user has previously shown interest in, but it is not urgent and can wait for review later.",0.85,message_0281;message_0125
+msg_101,digest,personal,"The message is friendly and offers food, but it doesn't require immediate attention and can wait.",0.85,message_0370;message_0229;message_0268
+msg_041,digest,business_update,"The message is a survey request from a known business and has low urgency, making it suitable for later review.",0.85,message_0138;message_0137
 msg_011,mute,spam,Muted because the message shows mass_forward_signal.,0.9,message_0077;message_0171;message_0014;message_0123;message_0241
-msg_110,mute,scam,Muted because the message shows otp_or_verification_code.,0.85,message_0238;message_0381
-msg_095,mute,scam,Muted because the message shows password_or_pin_request.,0.9,none
-msg_074,mute,spam,Muted because the message shows mass_forward_signal.,0.9,message_0204;message_0203;message_0358;message_0223;message_0164
-msg_073,mute,spam,Muted because the message shows mass_forward_signal.,0.95,message_0087;message_0184;message_0088;message_0183;message_0202
-msg_054,mute,spam,"The message is promoting a payment link for a loan approval, similar to previous spam messages reported and dismissed by the user.",0.9,message_0163;message_0164;message_0203;message_0204
-msg_068,digest,event,The message discusses a non-urgent plan and indicates there's no immediate action required. It's safe to review later.,0.85,message_0191;message_0192
-msg_100,notify,urgent,The message indicates an urgent situation requiring immediate attention to address a client escalation in 20 minutes.,0.9,message_0362;message_0228;message_0055
-msg_062,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0043;message_0130
-msg_096,notify,urgent,"The message is time-sensitive, regarding the retrieval of a lost passport, which needs to happen before 18h.",0.9,none
-msg_043,mute,spam,Muted because the message shows mass_forward_signal.,0.85,message_0130;message_0129;message_0067
-msg_077,notify,event,"This message contains important details about a school trip, including a deadline for signing consent and packing. It's crucial for timely attendance and requires immediate attention before the bus list closes.",0.9,message_0403;message_0051;message_0037
-msg_081,notify,urgent,"This message is about a time-sensitive change in school transport pickup location, which you previously found important and responded to.",0.9,message_0217
-msg_025,digest,business_update,"The message provides an update about an order, which is safe and useful but not urgent enough to notify immediately. The user has interacted positively with similar messages in the past.",0.85,message_0239;message_0004;message_0105
-msg_084,mute,scam,Muted because the message shows recent_user_reports.,0.85,message_0220
-msg_022,mute,spam,The message is about a payment and comes from a sender associated with past unwanted payment requests that I have previously dismissed or muted. It lacks urgency and is likely to be repetitive.,0.85,message_0099;message_0100;message_0151;message_0152
+msg_110,mute,scam,Muted because the message shows sensitive_code_request.,0.9,message_0238;message_0381
+msg_095,mute,scam,"The message contains a suspicious link and suggests confirming a wallet PIN, which indicates a potential scam.",0.95,none
+msg_074,mute,spam,"The message is a promotional offer that the user has previously dismissed, muted, and reported. It fits the pattern of spam content related to real estate promotions.",0.9,message_0204;message_0203;message_0358;message_0223;message_0164
+msg_073,mute,scam,"The message has a similar pattern to previously reported and dismissed scam messages regarding account security, and it urges immediate action through a suspicious link.",0.9,message_0087;message_0184;message_0088;message_0183;message_0202
+msg_054,mute,spam,This message is similar to previous messages that were identified as scams. User has reported or dismissed similar content multiple times.,0.9,message_0163;message_0164;message_0203;message_0204
+msg_068,digest,event,"The message discusses planning for a match without urgency, and it aligns with past similar messages. It can wait for your attention.",0.85,message_0191;message_0192
+msg_100,notify,urgent,The message is time-sensitive and requires immediate attention due to the potential client escalation in 20 minutes.,0.95,message_0362;message_0228
+msg_062,digest,event,"This is a scheduled fire alarm test notification that is informative, but doesn't require immediate action or interruption.",0.85,message_0043
+msg_096,notify,urgent,The message is about a found passport and requires timely action before a deadline.,0.9,none
+msg_043,notify,urgent,"The message indicates the need for immediate action to collect supplies before the tanker leaves, and it comes from a reliable admin source in a group where the user has previously engaged well.",0.9,message_0130;message_0129;message_0067
+msg_077,notify,urgent,This is an important school circular for tomorrow's field trip requiring timely action (consent form and ID card) and the bus list closes this evening.,0.9,message_0403;message_0051;message_0037
+msg_081,notify,event,"This voice message contains important information about a change in the school pickup location, which is time-sensitive.",0.85,message_0217
+msg_025,digest,business_update,"The message contains an update about an order, which is useful but not urgent enough to interrupt the user immediately, especially since they have acknowledged similar messages before.",0.85,message_0239;message_0004;message_0105
+msg_084,mute,promotion,"The message is a promotional offer from HDFC Bank, which the user has opted out of previously and has dismissed similar content.",0.85,message_0220
+msg_022,mute,spam,The user has previously dismissed or muted similar payment messages from this group indicating they're unwanted or suspicious.,0.9,message_0099;message_0100;message_0151;message_0152
